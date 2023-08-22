@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.admin-container
+{
+    padding-top: 30px;
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.search-bar
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.search-bar button
+{
+    border: 0;
+    background-color: transparent;
+}
+
+.search-bar button i
+{
+    font-size: 30px;
+}
+
+.search-bar input
+{
+    width: 550px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(83, 83, 83);
+    padding: 0 20px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.product-list_header
+{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-list_header .add-item
+{
+    display: flex;
+    align-items: center;
+}
+
+.product-list_header .add-item p
+{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.product-list_header .add-item button
+{
+    margin-left: 35px;
+}
+
+.product-list_header h1
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+}
+
+.product-list_header button
+{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+
+.product-list table
+{
+    width: 100%;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.product-list table, th, td
+{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.product-list table td
+{
+    font-weight: 100;
+}
+
+.product-list table td button
+{
+    border: 0;
+    background-color: transparent;
+}
+
+.fa-pen
+{
+    color: rgba(0, 110, 255, 0.801);
+    font-size: 24px
+}
+
+.fa-trash-can
+{
+    color: red;
+    font-size: 24px
+}
+
+.t-center
+{
+    text-align: center;
+}
+
+.t-left
+{
+    text-align: left;
+}
+
+.t-right
+{
+    text-align: right;
+}
+
+.p-left
+{
+    padding-left: 25px;
+}
+
+.p-right
+{
+    padding-right: 35px;
+}
