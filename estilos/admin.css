@@ -9,29 +9,28 @@
     padding-top: 30px;
     width: 1200px;
     margin: auto;
-    background-color: white;
     font-family: 'Inter', sans-serif;
 }
 
-.search-bar
+.search-bar-container
 {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
 
-.search-bar button
+.search-bar-container button
 {
     border: 0;
     background-color: transparent;
 }
 
-.search-bar button i
+.search-bar-container button i
 {
     font-size: 30px;
 }
 
-.search-bar input
+.search-bar-container input
 {
     width: 550px;
     height: 40px;
@@ -45,37 +44,25 @@
 
 .product-list_header
 {
-    height: 60px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
-.product-list_header .add-item
+.product-list_header .add-item-container
 {
     display: flex;
     align-items: center;
 }
 
-.product-list_header .add-item p
+.product-list_header .add-item-container p
 {
     font-size: 25px;
     font-weight: bolder;
 }
 
-.product-list_header .add-item button
+.product-list_header .add-item-container button
 {
     margin-left: 35px;
-}
-
-.product-list_header h1
-{
-    font-family: 'Raleway', sans-serif;
-    font-size: 45px;
-}
-
-.product-list_header button
-{
     width: 40px;
     height: 40px;
     border: 0;
@@ -85,25 +72,31 @@
     font-size: 30px;
 }
 
-.product-list table
+.product-list_header .title-container .title-lista-productos
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+}
+
+.product-list-container table
 {
     width: 100%;
     font-weight: bold;
     font-size: 26px;
 }
 
-.product-list table, th, td
+.product-list-container table, th, td
 {
     padding-top: 16px;
     padding-bottom: 16px;
 }
 
-.product-list table td
+.product-list-container table td
 {
     font-weight: 100;
 }
 
-.product-list table td button
+.product-list-container table td button
 {
     border: 0;
     background-color: transparent;
