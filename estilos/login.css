@@ -1,0 +1,104 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap');
+ */
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@700&display=swap');
+
+
+#formulario{
+
+    display: flex; /* para poder utilizar las propiedades de flexbox */
+
+    flex-direction: column;  /* se colocan los divs hijos uno arriba de otro */
+
+    align-items: center;
+
+
+
+
+
+}
+
+#titulo  {
+
+
+    font-family: Raleway;
+    font-size: 20px;
+
+    font-weight: 600;
+
+
+}
+
+#input{
+
+
+    width: 400px;
+
+
+    font-family: Inter;
+    font-size: 24px;
+
+
+
+}
+
+#input .cajas {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 20px;
+    
+
+}
+
+#input .cajas input {
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-color: red;
+
+  
+}
+
+
+
+#submit{
+
+
+
+    width: 300px;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    font-family: Inter;
+    font-size: 15px;
+}
+
+#submit button{
+    color: white;
+    background-color: red;
+    border: 0px;
+    padding: 10px;
+    padding-inline: 20px;
+}
+
+#inferior{
+
+    margin: 20px;
+
+    font-family: Inter;
+    font-size: 14px;
+
+}
+#inferior a {
+    text-decoration: none;
+    color: #1D84B5;
+}
