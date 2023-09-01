@@ -5,12 +5,10 @@
   padding: 0;
 }
 
-main {
+.main-editar {
   font-family: "Inter", sans-serif;
-  width: 100%;
-  max-width: 1024px;
-  padding-top: 25px;
-  margin: auto;
+  width: 1200px;
+  margin: 40px auto;
 }
 
 form {
@@ -152,4 +150,8 @@ input[type="submit"] {
   padding: 14px 23px;
   background-color: #ff3333;
   border: none;
+}
+
+.editar-boton-modificar {
+  margin: 0;
 }
