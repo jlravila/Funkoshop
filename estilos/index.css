@@ -1,29 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 #section-banner {
   position: relative;
-}
-.banner {
-  position: relative;
+  height: 388px;
+  background-image: url(../multimedia/funkos-banner.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   width: 100%;
-
-  filter: brightness(50%);
-  z-index: -1;
 }
 
 .banner-section {
   width: 100%;
-
-  text-align: left;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: absolute;
 }
 
 .card-banner {
   position: absolute;
-  top: 0;
-  left: 0;
+  padding: 110px;
+  z-index: 10;
 }
 
 .titulo-banner {
@@ -48,17 +54,16 @@
   margin-bottom: 10%;
 }
 
-.boton-shop {
-  width: 190px; /* 211px;*/
-  height: 47px;
-  top: 375px;
-  left: 110px;
-  border-radius: 50px;
-  font-family: Inter;
-  font-size: 15px;
+.card-banner a {
+  font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0em;
+  line-height: 24.2px;
+  padding: 12px 80px;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #111111;
+  border-radius: 50px;
+  font-family: "Inter", sans-serif;
 }
 
 /* SECTION 2*/
@@ -111,6 +116,7 @@
 .funko-imagen {
   width: 100%;
   height: auto;
+  max-width: 600px;
 }
 
 .card-section {
@@ -121,17 +127,13 @@
 
 .container__funkoItem {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
   font-family: Inter, sans-serif;
-  padding: 10%;
+  padding: 110px;
 }
 
 .funkoItem {
-  flex-basis: 30%;
-  flex-grow: 1;
   position: relative;
-  max-width: 286px;
-  margin-left: 50px;
 }
 
 .p__nuevo {
