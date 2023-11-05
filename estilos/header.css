@@ -51,7 +51,7 @@ header {
 #nav-item__carrito {
   position: relative;
 }
-span {
+header span {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -124,15 +124,16 @@
 
 /* SECTION 3 CAROUSEL*/
 
-.container__funkoItem {
-  display: flex;
-  justify-content: space-between;
-  font-family: Inter, sans-serif;
-  padding: 110px;
+.div-container__funkoItem {
+  padding: 40px;
+  font-family: Raleway, sans-serif;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .funkoItem {
   position: relative;
+  margin-right: 70px;
 }
 
 .p__nuevo {
