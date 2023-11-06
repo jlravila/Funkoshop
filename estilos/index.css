@@ -181,3 +181,8 @@
 .m-bottom-13 {
   margin-bottom: 13px;
 }
+
+.slideArrows__icons {
+  width: 12px;
+  height: auto;
+}

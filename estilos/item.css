@@ -212,3 +212,52 @@
 .m-bottom-13 {
   margin-bottom: 13px;
 }
+
+.slideArrows__icons {
+  width: 12px;
+  height: auto;
+}
+
+/* ESTILOS AGREGADOS RECIENTEMENTE */
+
+h1 {
+  text-align: center;
+  margin: 25px;
+}
+
+main {
+  width: 80%;
+  border: solid 1px gray;
+  margin: auto;
+  padding: 40px 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.item__img .item-img-container {
+  display: flex;
+  position: relative;
+}
+
+.img-back {
+  display: none;
+}
+.item-img-container:hover .img-back {
+  display: block;
+  animation: fade 3s;
+}
+.item-img-container:hover .img-front {
+  display: none;
+  animation: fade 3s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
