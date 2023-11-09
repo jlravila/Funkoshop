@@ -1,4 +1,4 @@
-// SCRIPT PAGINA ITEM 
+// SCRIPT PAGINA ITEM
 
 // CREO UNA VARIABLE QUE LLEVE EL CONTEO DE PRODUCTOS ELEGIDOS
 
@@ -49,6 +49,24 @@ inputAmount.oninput = function () {
   } else {
     count = inputVar;
     spanPrice.innerHTML = inputVar * priceProduct;
+  }
+};
+
+// VALIDACION PARA REVISAR QUE TECLA SE PULSO
+
+inputAmount.onkeydown = function (evt) {
+  // TOMAMOS EL KEYCODE DE LA TECLA PRESIONADA Y COMPARAMOS
+  const code = evt.which ? evt.which : evt.keyCode;
+  if (code == 8) {
+    // TECLA PARA BORRAR
+    return true;
+    // ASCII DE TECLADO NUMERICO
+  } else if ((code >= 48 && code <= 57) || (code >= 96 && code <= 105 )) {
+    // ES UN NUMERO
+    return true;
+  } else {
+    // ES OTRA TECLA
+    return false;
   }
 };
 

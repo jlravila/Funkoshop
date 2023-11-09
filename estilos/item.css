@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 .item-container {
@@ -17,7 +19,7 @@
 }
 
 .categoria-articulo {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #333333;
   font-weight: 600;
 }
@@ -25,22 +27,26 @@
 .titulo-articulo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
-  font-size: 38px;
+  font-size: 3.8rem;
   color: #111111;
   margin: 15px 0 15px 0;
 }
 
 .descripcion-articulo {
   color: #333333;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 400;
 }
 
 .precio-articulo {
   color: #333333;
-  font-size: 38px;
+  font-size: 3.8rem;
   font-weight: 400;
   margin: 20px 0 25px 0;
+}
+
+.precio-articulo__span {
+  font-size: 3.8rem;
 }
 
 .botones-carrito-container {
@@ -54,7 +60,7 @@
   width: 38.35px;
   height: 38.35px;
   color: white;
-  font-size: 25px;
+  font-size: 2.5rem;
   border: none;
 }
 
@@ -68,7 +74,7 @@
   text-align: center;
   -moz-appearance: textfield;
   appearance: textfield;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .cantidad::-webkit-outer-spin-button,
@@ -82,7 +88,7 @@
   width: 180px;
   height: 38.35px;
   color: white;
-  font-size: 18px;
+  font-size: 1.8rem;
   border: none;
   font-weight: 300;
   margin-left: 25px;
@@ -91,7 +97,7 @@
 .metodos-cuotas,
 .metodos-pago {
   color: #00b7ff;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 700;
   margin-top: 25px;
 }
@@ -99,7 +105,7 @@
 .titulo-related {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 46px;
+  font-size: 4.6rem;
   color: #111111;
 }
 
@@ -121,14 +127,14 @@
   height: 30px;
   background-color: #ff3333;
   color: white;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 300;
   text-align: center;
   line-height: 30px;
 }
 
 .categoria-articulo-related {
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #333333;
   font-weight: 500;
 }
@@ -136,20 +142,20 @@
 .titulo-articulo-related {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #111111;
   margin: 15px 0 10px 0;
 }
 
 .precio-articulo-related {
   color: #333333;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 
 .metodos-cuotas-related {
   color: #00b7ff;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 700;
   margin-top: 15px;
 }
@@ -174,7 +180,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #ffffff;
   font-weight: 500;
 }
@@ -185,25 +191,25 @@
 }
 
 .funkoItem h6 {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 500;
   line-height: 16.94px;
   color: #333333;
 }
 .funkoItem h5 {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 21.78px;
   color: #111111;
 }
 .p__precio {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 19.36px;
   color: #333333;
 }
 .p__cuotas {
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 700;
   line-height: 14.52px;
   color: #1d84b5;
@@ -217,8 +223,6 @@
   width: 12px;
   height: auto;
 }
-
-/* ESTILOS AGREGADOS RECIENTEMENTE */
 
 h1 {
   text-align: center;
@@ -244,6 +248,8 @@ button:hover {
 .img-back {
   display: none;
 }
+
+/* EFECTO ESTETICO SOBRE FIGURA */
 .item-img-container:hover .img-back {
   display: block;
   animation: fade 3s;
@@ -261,3 +267,4 @@ button:hover {
     opacity: 1;
   }
 }
+/* FIN EFECTO ESTETICO SOBRE FIGURA */

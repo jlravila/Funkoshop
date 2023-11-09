@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 header {
@@ -17,7 +18,6 @@ header {
   width: 100%;
   margin: auto;
   padding: 40px 90px;
-  font-size: 20px;
   font-weight: 500;
   line-height: 23px;
   letter-spacing: 0em;
@@ -47,6 +47,7 @@ header {
   color: #ffffff;
   text-decoration: none;
   font-family: raleway, sans-serif;
+  font-size: 2rem;
 }
 #nav-item__carrito {
   position: relative;
@@ -63,5 +64,5 @@ header span {
   background-color: #ff3333;
   color: #ffffff;
   border-radius: 50%;
-  font-size: 16px;
+  font-size: 1.6rem;
 }

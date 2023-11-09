@@ -8,11 +8,7 @@ body {
   box-sizing: border-box;
   font-size: 62.5%;
   background-color: var(--granate);
-  font-family: "Inter", sans-serif;
-
-  /* Eliminar */
-  font-size: 1.5rem;
-  /* Eliminar */
+  font-family: "Inter", sans-serif;  
 }
 
 a {
@@ -24,7 +20,7 @@ main {
 h3 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 46px;
+  font-size: 4.6rem;
   line-height: 54px;
   color: #111111;
   border-bottom: solid 5px #ff3333;
@@ -47,7 +43,7 @@ h3 {
 #encabezado-carrito p {
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 19.36px;
   color: #000000;
   text-transform: uppercase;
@@ -82,7 +78,7 @@ h3 {
 .item-carrito__texto h4 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 2.4rem;
   line-height: 29.05px;
   color: #111111;
   text-transform: uppercase;
@@ -91,7 +87,7 @@ h3 {
 .item-carrito__texto h5 {
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 16.94px;
   color: #30343f;
   margin-bottom: 20px;
@@ -100,7 +96,7 @@ h3 {
 .item-carrito__texto p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 16.94px;
   color: #333333;
 }
@@ -115,7 +111,7 @@ h3 {
 .item-carrito__cantidad input {
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 24.2px;
   color: #000000;
   border: solid 0.5px #c9c9c9;
@@ -141,7 +137,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
+  font-size: 2rem;
 }
 #cantidad-controles__sumar {
   margin-bottom: 4px;
@@ -162,7 +158,7 @@ h3 {
   color: #f24e1e;
   font-weight: 800;
   line-height: 20px;
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 /* SECTION PRECIO */
@@ -191,14 +187,14 @@ h3 {
 }
 #section-precio h4 {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 19.36px;
   text-transform: uppercase;
   color: #000000;
 }
 #section-precio p {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 19.36px;
   text-transform: uppercase;
   color: #747474;
@@ -208,12 +204,12 @@ h3 {
   border-top: solid 2px #ff3333;
 }
 #precio__total h4 {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 24.2px;
 }
 #precio__total p {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 24.2px;
 }
@@ -225,7 +221,7 @@ h3 {
   width: 572px;
   padding: 14px;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 3.2rem;
   line-height: 38.73px;
   color: #ffffff;
   background-color: #ff3333;

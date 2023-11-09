@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
   }
 
 .main-create {
@@ -17,7 +19,7 @@ form {
 
 .titulo-create{
     font-family: "Raleway", sans-serif;
-    font-size: 42px;
+    font-size: 4.2rem;
     font-weight: 700;
     line-height: 49px;
     letter-spacing: 0.04em;
@@ -27,7 +29,7 @@ form {
   }
 
   .item-productos {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 400;
     line-height: 29px;
   }
@@ -55,7 +57,7 @@ form {
   }
 
   .seleccion{
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 24px;
     font-weight: 5px;
     margin-left: 19px;
@@ -75,7 +77,7 @@ form {
     border: solid 1px #1f1f1f;
     padding: 11px 9px;
     font-family: "Inter",sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0.04em;
@@ -108,7 +110,7 @@ form {
     border:none;
     border-bottom: 2px solid #FF3333;
     font-family: "Inter",sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0.04em;
@@ -119,7 +121,7 @@ form {
   }
 
   .form-controlimg{
-    font-size: 15px;
+    font-size: 1.5rem;
     
     align-items:start;
   }
@@ -132,7 +134,7 @@ form {
     border: none;
     background-color: #FF3333;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 600;
     line-height: 17px;
     letter-spacing: 0em;

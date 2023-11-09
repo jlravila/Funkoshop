@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/item.css">
+    <link
+      rel="shortcut icon"
+      href="multimedia/icons/baby-yoda-1.ico"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="estilos/header.css">
     <link rel="stylesheet" href="estilos/footer.css">
     <script src="https://kit.fontawesome.com/cd152692ec.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos/glide.core.css" />
     <link rel="stylesheet" href="estilos/glide.theme.css" />
+    <link rel="stylesheet" href="estilos/item.css">
     <title>Funkshop - Item</title>
 </head>
 <body>
@@ -70,10 +75,11 @@
               -
             </button>
             <input
-              type="number"
+              type="text"
               class="inputCantidad cantidad"
-              placeholder="0"
-            />
+              placeholder="0"   
+              pattern="[0-9]+"          
+                          />
             <button type="button" class="botones__carrito boton-mas">+</button>
 
             <button type="button" class="agregar-carrito">
