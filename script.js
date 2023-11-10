@@ -56,8 +56,9 @@ inputAmount.oninput = function () {
 
 inputAmount.onkeydown = function (evt) {
   // TOMAMOS EL KEYCODE DE LA TECLA PRESIONADA Y COMPARAMOS
+  console.log(evt.which)
   const code = evt.which ? evt.which : evt.keyCode;
-  if (code == 8) {
+  if (code == 8 || code == 46) {
     // TECLA PARA BORRAR
     return true;
     // ASCII DE TECLADO NUMERICO
