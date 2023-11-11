@@ -69,17 +69,17 @@
             </div>
           </div>
           <div class="item-carrito__cantidad">
-            <input type="text" placeholder="2" name="" id="" />
+            <input type="text" value="2" name="" id="input-cant" >
             <div class="item-carrito__cantidad-controles">
-              <a href="#" id="cantidad-controles__sumar">+</a>
-              <a href="#">-</a>
+              <button id="cantidad-controles__sumar">+</button>
+              <button id="cantidad-controles__restar">-</button>
             </div>
           </div>
           <div class="item-carrito__precio">
-            <p>$ 3599,98</p>
+            <input type="text" value="  3599.98" id="input-valor">
           </div>
           <div class="item-carrito__eliminar-item">
-            <a href="#">x</a>
+            <button class="delete">x<button>
           </div>
         </div>
         <!-- ITEM PIDGEOTTO -->
@@ -93,17 +93,17 @@
             </div>
           </div>
           <div class="item-carrito__cantidad">
-            <input type="text" placeholder="1" name="" id="" />
+            <input type="text" value="1" name="" id="input-cantidad" >
             <div class="item-carrito__cantidad-controles">
-              <a href="#" id="cantidad-controles__sumar">+</a>
-              <a href="#">-</a>
+              <button onclick="addItem2()" id="cantidad-controles__sumar">+</button>
+              <button onclick="removeItem2()" id="cantidad-controles__restar">-</button>
             </div>
           </div>
           <div class="item-carrito__precio">
-            <p>$ 1799,99</p>
+            <input type="text" value="  1799.99" id="input-valores">
           </div>
           <div class="item-carrito__eliminar-item">
-            <a href="#">x</a>
+            <button class="delete">x<button>
           </div>
         </div>
       </section>
@@ -114,22 +114,22 @@
         <div>
           <div>
             <h4>Cantidad de elementos</h4>
-            <p>3</p>
+            <input type="text" value="3" id="cant-elementos">
           </div>
           <div>
             <h4>Subtotal</h4>
-            <p>$ 5.399,97</p>
+            <input type="text" value=" 5.399.97" id="subtotal">
           </div>
           <div>
             <h4>Envio</h4>
-            <p>$ 0,00</p>
+            <input type="text" value=" 0,00" id="envio">
           </div>
           <div id="precio__total">
             <h4>Total</h4>
-            <p>$ 5.399,97</p>
+            <input type="text" value="5.399,97" id="precio-total">
           </div>
         </div>
-        <a href="#">Ir a pagar</a>
+        <button>Ir a pagar</button>
       </section>
     </main>
 
@@ -144,7 +144,7 @@
             <a class="footer-nav-link" href="login.html">INGRESAR</a>
           </li>
           <li class="footer-nav-item">
-            <a class="footer-nav-link" href="#">CONTACTO</a>
+            <a class="footer-nav-link" href="contacto.html">CONTACTO</a>
           </li>
         </ul>
         <p class="texto-footer">All rights reserved 2023 - Funkoshop &copy;</p>
@@ -157,4 +157,5 @@
     </footer>
     <!-- FIN FOOTER -->
   </body>
+  <script src="./scripts/carrito.js"></script>
 </html>
