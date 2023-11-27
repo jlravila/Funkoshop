@@ -63,6 +63,7 @@ h3 {
   position: relative;
 }
 .item-carrito__precio {
+  display: flex;
   font-size: 3rem;
   margin-right: 20px;
 }
@@ -126,7 +127,8 @@ h3 {
   margin-right: 6px;
 }
 
-.item-carrito__precio input {
+.item-carrito__precio p {
+  text-align: center;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -208,13 +210,13 @@ h3 {
   text-transform: uppercase;
   color: #000000;
 }
-#section-precio input {
+#section-precio p {
   font-weight: 700;
   font-size: 1.6rem;
   line-height: 19.36px;
   text-transform: uppercase;
   color: #747474;
-  width: 80px;
+  width: 150px;
   border:none;
   text-align: end;
 }
@@ -227,7 +229,7 @@ h3 {
   font-weight: 700;
   line-height: 24.2px;
 }
-#precio__total input {
+#precio__total p {
   font-size: 2rem;
   font-weight: 700;
   line-height: 24.2px;
@@ -246,4 +248,10 @@ h3 {
   background-color: #ff3333;
   text-align: center;
   border: none;
+}
+#signo{
+  margin-left: 29rem;
+}
+#signo-envio{
+  margin-left: 39rem;
 }

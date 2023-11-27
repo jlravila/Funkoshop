@@ -23,26 +23,28 @@ let botonResta=document.getElementById("cantidad-controles__restar");
     }
 
     function calcularPrecio(){
-        valor = document.getElementById("input-cant").value * 1799.99; //1799.99 valor a tomar de la base
-        document.getElementById("input-valor").value=valor;
+        valor = document.getElementById("input-cant").value * 1799.99 //1799.99 valor a tomar de la base
+        document.getElementById("precio-totalItem").textContent=valor;
     }
+
 
     function calcularSubtotal(){
-       var num1= (isNaN( document.getElementById("input-valor").value)) ? "0" : document.getElementById("input-valor").value ;
-       var num2= (isNaN( document.getElementById("input-valores").value)) ? "0" : document.getElementById("input-valores").value ;
-       var subtotales=  parseFloat (num1) + parseFloat  (num2);
-       document.getElementById("subtotal").value= subtotales;
+       subtotales=  parseFloat (document.getElementById("precio-totalItem").textContent) +
+                    parseFloat  (document.getElementById("precio-totalItem2").textContent);
+        document.getElementById("subtotal").textContent = subtotales;
     }
+     
 
     function calcularTotal(){
-        document.getElementById("precio-total").value = parseFloat(document.getElementById("subtotal").value) 
-        + parseFloat (document.getElementById("envio").value);
+       total =  parseFloat(document.getElementById("subtotal").textContent) 
+               + parseFloat (document.getElementById("envio").textContent);
+       document.getElementById("precio-total").textContent = ('$ ' + total);      
     }
 
 
     function cantidadElementos(){
         cantElemts = parseInt (document.getElementById("input-cant").value) + parseInt (document.getElementById("input-cantidad").value);
-        document.getElementById("cant-elementos").value = cantElemts;
+        document.getElementById("cant-elementos").textContent = cantElemts;
     }
 
     
@@ -67,8 +69,8 @@ function removeItem2() {
     }  
     
     function calcularPrecio2(){
-        valor = document.getElementById("input-cantidad").value * 1799.99;
-        document.getElementById("input-valores").value=valor;
+        valor = document.getElementById("input-cantidad").value * 1799.99 //1799.99 valor a tomar de la base
+        document.getElementById("precio-totalItem2").textContent=valor;
     }  
     
 
