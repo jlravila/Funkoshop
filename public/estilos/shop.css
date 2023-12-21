@@ -168,6 +168,11 @@ form a {
   line-height: 21.78px;
   color: #111111;
 }
+
+.img-back {
+  display: none;
+}
+
 .p__precio {
   font-size: 1.6rem;
   font-weight: 400;
@@ -210,6 +215,12 @@ form a {
   border-radius: 4px;
 }
 
+.control-paginas__ref{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
 #control-paginas__atras {
   background-color: #919eab;
   color: #c4cdd5;
@@ -221,3 +232,23 @@ form a {
 #control-paginas__adelante {
   color: #c4cdd5;
 }
+
+/* EFECTO ESTETICO SOBRE FIGURA */
+.funkoItem:hover .img-back {
+  display: block;
+  animation: fade 1s;
+}
+.funkoItem:hover .img-front {
+  display: none;
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* FIN EFECTO ESTETICO SOBRE FIGURA */

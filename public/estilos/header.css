@@ -36,6 +36,7 @@ header {
 .header-navbar-nav {
   display: flex;
   align-items: center;
+  gap: 15px;
 }
 
 .header-nav-item {
@@ -43,15 +44,27 @@ header {
 }
 
 .header-nav-link {
-  padding: 10px 0 10px 60px;
+  /*padding: 10px 0 10px 60px;*/
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
   color: #ffffff;
   text-decoration: none;
-  font-family: raleway, sans-serif;
+  font-family: "raleway", sans-serif;
   font-size: 2rem;
+  transition: background .3s ease-in-out;
+  position: relative;
 }
+
+.header-nav-link:hover{
+  cursor: pointer;
+  background-color: red;
+}
+
 #nav-item__carrito {
   position: relative;
 }
+
 header span {
   display: flex;
   justify-content: center;
@@ -65,4 +78,45 @@ header span {
   color: #ffffff;
   border-radius: 50%;
   font-size: 1.6rem;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-submenu:hover .submenu{
+  display: block;
+}
+
+.submenu{
+  display: none;
+  /*width: 120px;*/
+  position: absolute;
+  background-color: solid #30343f;
+}
+
+.submenu-item{
+  text-decoration: none;
+}
+/*.submenu-item{
+  display: block;
+  padding: 3px 20px;
+  transition: background .3s ease-in-out;
+}*/
+
+.submenu-link{
+  display: block;
+  padding: 3px 20px;
+  transition: background .3s ease-in-out;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "raleway", sans-serif;
+  font-size: 1.9rem;
+  /*display:flex;*/ 
+}
+
+.submenu-link:hover{
+  background-color: red;
 }
